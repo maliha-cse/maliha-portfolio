@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#101110] text-white">
       {/* Navbar */}
-      <nav className="flex flex-wrap items-center justify-between gap-4 border-b border-white/10 px-6 py-5 md:px-16">
+     <nav className="sticky top-0 z-50 flex flex-wrap items-center justify-between gap-4 border-b border-white/10 bg-[#101110]/95 px-6 py-5 backdrop-blur-md md:px-16">
         <a href="#home" className="text-2xl font-bold">
           M<span className="text-lime-400">.</span>
         </a>
